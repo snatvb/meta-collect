@@ -38,7 +38,7 @@ function clearComments(content) {
   if (!options.clear.comments) {
     return content;
   }
-  const pattern = /--(.*)+$/gim;
+  const pattern = /<!--(.*)+$/gim;
   return content.replace(pattern, '');
 }
 

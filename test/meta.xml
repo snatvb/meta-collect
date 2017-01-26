@@ -1,3 +1,4 @@
 <meta>
     <require>./test.xml</require>
+    <!--<test>asd</test>-->
 </meta>
