@@ -1,7 +1,7 @@
 {
   "name": "gulp-xml-collect",
-  "version": "0.1.0",
-  "description": "Bundle lua modules",
+  "version": "0.1.1",
+  "description": "Bundle xml to one file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "public": "git push origin master && npm publish"
   },
   "keywords": [
-    "lua",
+    "xml",
     "import"
   ],
   "repository": {
@@ -19,7 +19,6 @@
   "author": "snatvb",
   "license": "ISC",
   "dependencies": {
-    "glob": "^7.1.1",
     "gulp-util": "^3.0.7",
     "replacestream": "^4.0.0",
     "through2": "^2.0.3"
