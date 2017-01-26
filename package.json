@@ -1,0 +1,27 @@
+{
+  "name": "gulp-xml-collect",
+  "version": "0.1.0",
+  "description": "Bundle lua modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production gulp",
+    "public": "git push origin master && npm publish"
+  },
+  "keywords": [
+    "lua",
+    "import"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snatvb/meta-collect"
+  },
+  "author": "snatvb",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "gulp-util": "^3.0.7",
+    "replacestream": "^4.0.0",
+    "through2": "^2.0.3"
+  }
+}

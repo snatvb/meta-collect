@@ -1,0 +1,4 @@
+<meta__module>
+    <file src="img/test.png"/>
+    <require>./shaders.xml</require>
+</meta__module>
